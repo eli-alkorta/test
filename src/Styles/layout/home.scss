@@ -1,0 +1,161 @@
+.App{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.about-me-container{
+   width: 100vw;
+   height: 50vh;
+   background: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   transition: all 1s linear;
+   a{
+      position: relative;
+      top: 50%;
+      height: 40px;
+   }
+   &:hover{
+      border: solid 80px black;
+      background: white;
+      color: black;
+   }
+}
+.projects-container{
+   width: 100vw;
+   height: 50vh;
+   background: white;
+   color: black;
+   display: flex;
+   justify-content: center;
+   transition: all 1s linear;
+   a{
+      position: relative;
+      top: 50%;
+      height: 40px;
+   }
+   &:hover{
+      border: solid 80px white;
+      background: black;
+      color: white;
+   }
+}
+.in-progress-container{
+   width: 100vw;
+   height: 50vh;
+   background: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   transition: all 1s linear;
+   a{
+      position: relative;
+      height: 40px;
+      align-self: center;
+   }
+   &:hover{
+      border: solid 80px black;
+      background: white;
+      color: black;
+   }
+}
+.contact-container{
+   width: 100vw;
+   height: 50vh;
+   background: white;
+   color: black;
+   display: flex;
+   justify-content: center;
+   transition: all 1s linear;
+   a{
+      position: relative;
+      height: 40px;
+      align-self: center;
+   }
+   &:hover{
+      border: solid 80px white;
+      background: black;
+      color: white;
+   }
+}
+
+// Tablet //
+
+@media all and (min-width: 768px) {
+   .App{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+   .about-me-container{
+      width: 49vw;
+      height: 50vh;
+      a{
+         font-size: 20px;
+      }
+   }
+   .projects-container{
+      width: 49vw;
+      height: 50vh;
+      a{
+         font-size: 20px;
+      }
+   }
+   .in-progress-container{
+      width: 49vw;
+      height: 50vh;
+      background: white;
+      color: black;
+      a{
+         font-size: 20px;
+      }
+      &:hover{
+         border: solid 80px white;
+         background: black;
+         color: white;
+      }
+   }
+   
+   .contact-container{
+      width: 49vw;
+      height: 50vh;
+      background: black;
+      color: white;
+      a{
+         font-size: 20px;
+      }
+      &:hover{
+         border: solid 80px black;
+         background: white;
+         color: black;
+      }
+   }  
+}
+
+//PC //
+
+@media all and (min-width: 1200px) {
+   .about-me-container{
+      a{
+         font-size: 16px;
+      }
+   }
+   .projects-container{
+      a{
+         font-size: 16px;
+      }
+   }
+   .in-progress-container{
+      a{
+         font-size: 16px;
+      }
+   }
+   .contact-container{
+      a{
+         font-size: 16px;
+      }
+   }
+}
+

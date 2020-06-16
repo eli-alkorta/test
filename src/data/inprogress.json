@@ -1,0 +1,25 @@
+[
+   {
+      "id": "uno",
+      "returnLink": "Volver",
+     "photo": "../img/lamp_shop.png",
+     "title": "Tienda online de lámparas artesanales",
+     "style": "Funcional pero sin terminar.",
+     "description1": "Este proyecto es totalmente funcional pero se encuentra en proceso de desarrollo, a la espera de incluir descripciones de los productos e imágenes de mayor calidad.",
+     "description2":"SPA con diseño responsive, desarrollada con ",
+     "technologies":"React, React Router, React Bootstrap y styled-components y alojado en Netlify.",
+     "linkWeb": "https://mart-lamp-shop.netlify.app/",
+     "linkCode": "https://github.com/eli-alkorta/eCommerce-shop-with-React/tree/dev"
+   },
+   {
+      "id": "dos",
+      "photo": "../img/mask.jpg",
+      "title": "Oráculo pandémico",
+      "style": "Proyecto futuro.",
+      "description1": "Aplicación lúdica para poner al usuario en contacto con su antepasado pandémico, con el que podrá abrir un chat y entablar conversación (sesión de espiritismo online). Incluirá un formulario con preguntas personales que, una vez relleno, devolverá el mensaje del oráculo: fotografías antiguas y biografías aleatorias.",
+     "description2":"Página que desarrollaré con ",
+     "technologies":"React, React Router, CSS y SASS",
+     "button": "yes"
+    }
+
+]

@@ -1,0 +1,67 @@
+[
+   {
+      "id": "tres",
+      "returnLink": "Volver",
+     "photo": "../img/rick.png",
+     "title": "Buscador de personajes de Rick y Morty",
+     "description1": "Aplicación que se conecta a una API REST para descargar y pintar datos de los personajes de la serie.",
+     "description2":"El usuario puede filtrar los resultados por nombre, género y especie. Además, cada personaje tiene una página de detalle y la SPA también cuenta con modo nocturno y diurno para modificar los colores y luminosidad.",
+     "description3":"App maquetada con Flexbox y Grid, y desarrollada con ",
+     "technologies":"React, React Router, CSS y SASS. Diseño responsive.",
+     "linkWeb": "https://eli-alkorta.github.io/modulo-3-evaluacion-final-eli-alkorta/#/",
+     "linkCode": "https://github.com/eli-alkorta/modulo-3-evaluacion-final-eli-alkorta"
+   },
+   {
+      "id": "cuatro",
+      "photo": "../img/awesome-react.png",
+      "title": "Migración 'Awesome profile cards'",
+      "description1": "Aplicación que genera tarjetas de visita personalizadas y virtuales que se pueden compartir en Twitter. Proyecto grupal realizado con código JavaScript heredado, que ha sido refactorizado y reconvertido en SPA de React",
+     "description2":"Entre otras características, cuenta con modo noche, que permite mejorar la visibilidad de la pantalla, y con localStorage, que almacena los datos del usuario.",
+     "description3":"App desarrollada con ",
+     "technologies":"React, React Router, CSS y SASS. Diseño responsive",
+     "linkWeb": "http://beta.adalab.es/project-promo-i-module-3-team-3-afternoon/#/",
+     "linkCode": "https://github.com/eli-alkorta/project-promo-i-module-3-team-3-afternoon"
+    },
+    {
+      "id": "cinco",
+      "photo": "../img/awesome-js.png",
+      "title": "'Awesome profile cards'",
+      "description1": "Proyecto grupal que genera tarjetas de visita personalizadas y virtuales que se pueden compartir en Twitter.",
+     "description3":"Primera versión de la aplicación, desarrollada con ",
+     "technologies":"JavaScript, HTML, CSS, SASS y Gulp. Diseño responsive",
+     "linkWeb": "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/",
+     "linkCode": "https://github.com/eli-alkorta/project-promo-i-module-2-team-4-afternoon"
+    },
+    {
+      "id": "seis",
+      "photo": "../img/the-evil-web.png",
+      "title": "The Evil Web",
+      "description1": "Web lúdica e inofensivamente maligna que recoge datos del usuario, tales como su localización y su dirección IP, y los redirige a diversas páginas web.",
+     "description2":"A través de los clicks del visitante, se pintan objetos y mensajes de manera dinámica, y desaparecen para dar paso a nuevos contenidos.",
+     "description3":"Proyecto desarrollado con ",
+     "technologies":"JavaScript, HTML y CSS. Diseño responsive",
+     "linkWeb": "https://eli-alkorta.github.io/The-Evil-Web/",
+     "linkCode": "https://github.com/eli-alkorta/The-Evil-Web"
+    },
+    {
+      "id": "siete",
+      "photo": "../img/sheckies.png",
+      "title": "'Sheckies'",
+      "description1": "Primer proyecto grupal de Adalab en la que presentamos a los miembros de nuestro equipo y nos ofrecemos como diseñadoras web.",
+      "description2":"Incluye un formulario de contacto y está maquetado con Flexbox y Grid.",
+      "description3":"Desarrollado con ",
+      "technologies":"HTML, CSS, SASS y Gulp. Diseño responsive",
+      "linkWeb": "http://beta.adalab.es/project-promo-i-module-1-team-4-afternoon/",
+      "linkCode": "https://github.com/eli-alkorta/project-promo-i-module-1-team-4-afternoon"
+    },
+    {
+      "id": "ocho",
+      "photo": "../img/portfolio.png",
+      "title": "Portfolio de proyectos",
+      "description1": "Currículum interactivo en el que repaso mi trayectoria profesional y presento mis proyectos de maquetación y programación como desarrolladora front-end.",
+     "description3":"Creado con ",
+     "technologies":"React, React Router, CSS y SASS. Diseño responsive",
+     "linkWeb": "https://www.adalab.es",
+     "linkCode": "https://github.com/eli-alkorta/Eli-s-Portfolio"
+    }
+]

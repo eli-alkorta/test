@@ -1,0 +1,137 @@
+.contact{
+   display: flex;
+   flex-direction: column;
+   height: calc(100vh - 40px);
+   width: 100%;
+   align-items: center;
+   margin-top: 40px;
+   .link-home{
+      width: 60px;
+      height: 40px;
+      &:hover{
+         font-weight: bold;
+         transform: scale(1.1);
+      }
+   } 
+   .contact-title{
+      text-align: center;
+      margin-bottom: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   #contact-form{
+      width: 100vw;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .name-container{
+         display: flex;
+         flex-direction: column;
+         .name{
+            margin-bottom: 5px;
+         }
+         .name-input{
+            margin-bottom: 20px;
+         }
+      }
+      .email-container{
+         display: flex;
+         flex-direction: column;
+         .email{
+            margin-bottom: 5px;
+         }
+         .email-input{
+            margin-bottom: 20px;
+         }
+      }
+      .message-container{
+         display: flex;
+         flex-direction: column;
+         .message{
+            margin-bottom: 5px;
+         }
+         .message-textarea{
+            height: 140px;
+            margin-bottom: 20px;
+         }
+      }
+   }
+}
+.footer{
+   background-image: linear-gradient(to bottom, black, white 5%);
+   width: 100%;
+   position: fixed;
+   bottom: 5px;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.copyright{
+   text-align: center;
+   padding-top: 15px;
+}
+.icons{
+   display: flex;
+   justify-content: center;
+   #footer-icon{
+      font-size: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+// Tablet //
+
+@media all and (min-width: 768px) { 
+   .contact{
+      justify-content: center;
+      .link-home{
+         position: fixed;
+         top: 70px;
+         left: 90px;
+      }
+      #contact-form{
+         .message-container{
+            .message-textarea{
+               height: 200px;
+            }            
+         }
+      }
+   }
+}
+
+
+//PC//
+
+@media all and (min-width: 1200px) {
+   .contact{
+      height: calc(100vh - 65px);
+      justify-content: flex-start;
+      margin-top: 65px;
+      #contact-form{
+         .message-container{
+            .message-textarea{
+               height: 140px;
+            }      
+         }
+      }
+   }
+   .footer{
+      display: flex;
+   }
+   .copyright{
+      margin-left: 100px;
+   }
+   .icons{
+      margin-right: 100px;
+      
+      #footer-icon{
+         font-size: 20px;
+         padding: 30px;
+      }
+   }
+}
+
