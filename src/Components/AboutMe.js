@@ -23,8 +23,7 @@ class AboutMe extends React.Component {
    }
    
    changeBio = () => {
-      bio.map(item => {
-         const {names, adictions, jobs, jobs2, tendencies, gifts, dosis, goodThings} = item.bio;
+         const {names, adictions, jobs, jobs2, tendencies, gifts, dosis, goodThings} = bio;
          
          const name = this.getRandomArrayItem(names)
          const adiction = this.getRandomArrayItem(adictions); 
@@ -34,6 +33,12 @@ class AboutMe extends React.Component {
          const gift = this.getRandomArrayItem(gifts); 
          const dose = this.getRandomArrayItem(dosis);
          const priceless = this.getRandomArrayItem(goodThings);
+
+         const green = document.querySelectorAll('.change');
+         for (let singleGreen of green) {
+            singleGreen.classList.add('green');
+            
+         }
          
          return(
             this.setState({
@@ -46,13 +51,8 @@ class AboutMe extends React.Component {
                dose,
                priceless
             }));
-      });
          
-         const green = document.querySelectorAll('.change');
-         for (let singleGreen of green) {
-            singleGreen.classList.add('green');
-            
-         }
+         
       }
 
    render() {
@@ -72,7 +72,7 @@ class AboutMe extends React.Component {
             <div className="text-container">
                <p>Hola, bienvenida a mi portfolio.</p>
                <br/>
-               <p>Me llamo <span className="change">{name}</span>y soy desarrolladora front-end junior.</p>
+               <p>Me llamo <span className="change">{name}</span> y soy desarrolladora front-end junior.</p>
                <br/>
                <p>Me divierte mucho trabajar con <strong>React</strong> y <strong>JavaScript</strong>, y soy adicta a <span className="change">{adiction}</span>. Además, disfruto del diseño y la maquetación y me estoy haciendo muy buena amiga del <strong>HTML</strong>, <strong>CSS</strong> y <strong>SASS</strong>.</p> 
                <br/>
