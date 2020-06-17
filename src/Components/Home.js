@@ -9,13 +9,13 @@ const translations = {
       2: "Proyectos",
       3: "En proceso",
       4: "Contacto"
-   },
+  },
    en: {
       1: "About me",
       2: "Projects",
       3: "Work in progress",
       4: "Contact"
-   } 
+  } 
 };
 
 const linkTexts = {

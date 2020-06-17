@@ -50,10 +50,8 @@ class AboutMe extends React.Component {
                gift,
                dose,
                priceless
-            }));
-         
-         
-      }
+            }));        
+    }
 
    render() {
 
