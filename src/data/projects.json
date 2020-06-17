@@ -61,7 +61,7 @@
       "description1": "Currículum interactivo en el que repaso mi trayectoria profesional y presento mis proyectos de maquetación y programación como desarrolladora front-end.",
      "description3":"Creado con ",
      "technologies":"React, React Router, CSS y SASS. Diseño responsive",
-     "linkWeb": "https://www.adalab.es",
-     "linkCode": "https://github.com/eli-alkorta/Eli-s-Portfolio"
+     "linkWeb": "https://elialkorta-portfolio.netlify.app/",
+     "linkCode": "https://github.com/eli-alkorta/portfolio"
     }
 ]
