@@ -60,8 +60,19 @@
       "title": "Portfolio de proyectos",
       "description1": "Currículum interactivo en el que repaso mi trayectoria profesional y presento mis proyectos de maquetación y programación como desarrolladora front-end.",
      "description3":"Creado con ",
-     "technologies":"React, React Router, CSS y SASS. Diseño responsive",
+     "technologies":"React, React Router, HTML y SASS. Diseño responsive",
      "linkWeb": "https://elialkorta-portfolio.netlify.app/",
      "linkCode": "https://github.com/eli-alkorta/portfolio"
+    },
+    {
+      "id": "nueve",
+      "photo": "../img/oraculo.png",
+      "title": "Oráculo pandémico",
+      "description1": "Aplicación lúdica para poner al usuario en contacto con su vida pasada confinada, con la que podrá abrir un chat y entablar conversación.", 
+      "description2":"Incluye un formulario con preguntas personales que, una vez relleno, devuelve aleatoriamente una reencarnación entre nueve historias diferentes.",
+     "description3":"Creado con ",
+     "technologies":"React, React Router, animaciones en JQuery, HTML y SASS. Diseño  no-responsive (versión PC/laptop)",
+     "linkWeb": "https://eli-alkorta.github.io/oraculo-pandemico/#/",
+     "linkCode": "https://github.com/eli-alkorta/oraculo-pandemico"
     }
 ]
