@@ -16,9 +16,9 @@
       "photo": "../img/tetris.jpg",
       "title": "Tetris",
       "style": "Proyecto futuro.",
-      "description1": "Entre las decenas de cursos y tutoriales que tengo en lista de espera, uno de los que más me apetece es el de crear un Tetris. También quiero crear algún tipo de juego arcade con JavaScript",
+      "description1": "Entre las decenas de cursos y tutoriales que tengo en lista de espera, uno de los que más me apetece es el de crear un Tetris. También quiero crear algún tipo de juego arcade con JavaScript.",
      "description2":"Desarrollaré el Tetris con ",
-     "technologies":"React, React Hooks, HTML y SASS",
+     "technologies":"React, React Hooks, HTML y SASS.",
      "button": "yes"
     }
 
